@@ -14,7 +14,7 @@ final class ApiCaller {
     struct Constants {
         static let topHeadlinesURL = URL(string: "https://newsapi.org/v2/top-headlines?country=us&apiKey=6bccee13811549c3ba0a32f0acf353cf")
         
-        static let searchURLString = "https://newsapi.org/v2/everything?from=2024-07-06&to=2024-07-07&sortBy=popularity&apiKey=6bccee13811549c3ba0a32f0acf353cf&q="
+        static let searchURLString = "https://newsapi.org/v2/everything?from=2024-08-05&to=2024-08-06&sortBy=popularity&apiKey=6bccee13811549c3ba0a32f0acf353cf&q="
         
         static let usersURLString = URL(string: "https://randomuser.me/api/?results=50")
     }
