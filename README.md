@@ -1,4 +1,21 @@
 # iOS App: NewsAPP
+an app in which you can see the latest news and also has a list of users which allows you to see their location
+
+##MVC design pattern
+
+In this case I decided to implement an MVC pattern because the app did not have too much complexity in itself and with this pattern I could develop it easily.
+
+##APIs used
+
+I also decided to use 2 different APIs, one of these was the news API in which I used the https://newsapi.org API within these I used a format for the featured news that is displayed when the app is opened (https: //newsapi.org/v2/top-headlines?country=us&apiKey=) and also use a different format to implement the search bar (https://newsapi.org/v2/everything?from=2024-07-06&to=2024-07-07&sortBy=popularity&apiKey=&q=)
+
+In the case of users, I decided to use the following API https://randomuser.me/api/?results=50 which generates users randomly with various data, among these would be the full name, location, coordinates, image and many more. The only problem I found with this API is that since the coordinates are random, some users show strange positions.
+
+##UI Design
+
+For the design of the UI I decided to do it in 2 different ways, in the case of the Table View that is responsible for showing the news along with the Search Bar I programmed them and in the case of the Table View with the list of users I did it with the StoryBoard in which I also decided to implement a TabBar to be able to switch between the news screen and the users screen
+
+# iOS App: NewsAPP
 una app en la cual se pueden ver las ultimas noticias y tambien tiene una lista de usuarios la cual te permite ver la ubicacion de estos mismos
 
 ##Patron de diseño MVC
